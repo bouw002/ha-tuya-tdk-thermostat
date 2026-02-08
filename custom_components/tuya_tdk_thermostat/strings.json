@@ -1,0 +1,29 @@
+{
+  "title": "Tuya TDK Thermostat (Cloud)",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Tuya Cloud",
+        "description": "Enter your Tuya Cloud project credentials.",
+        "data": {
+          "access_id": "Access ID",
+          "access_secret": "Access Secret",
+          "endpoint": "API Endpoint (e.g., https://openapi.tuyaeu.com)"
+        }
+      },
+      "select_devices": {
+        "title": "Select Thermostats",
+        "description": "Pick the thermostats to add from your Tuya Cloud project.",
+        "data": {
+          "device_ids": "Device IDs"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Tuya Cloud. Check credentials/endpoint."
+    },
+    "abort": {
+      "no_devices_found": "No devices found in your Tuya project."
+    }
+  }
+}

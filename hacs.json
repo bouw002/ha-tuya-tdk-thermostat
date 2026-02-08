@@ -1,0 +1,8 @@
+
+{
+  "name": "Tuya TDK Thermostat (Cloud)",
+  "render_readme": true,
+  "domains": ["climate"],
+  "country": "NL"
+}
+

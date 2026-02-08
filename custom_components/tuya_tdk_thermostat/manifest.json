@@ -1,0 +1,12 @@
+{
+  "domain": "tuya_tdk_thermostat",
+  "name": "Tuya TDK Thermostat (Cloud)",
+  "version": "0.2.0",
+  "documentation": "https://github.com/yourname/ha-tuya-tdk-thermostat",
+  "issue_tracker": "https://github.com/yourname/ha-tuya-tdk-thermostat/issues",
+  "codeowners": ["@yourhandle"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "loggers": ["tuya_tdk_thermostat", "tuya_connector"],
+  "requirements": ["tuya-connector-python>=0.1.7"]
+}
