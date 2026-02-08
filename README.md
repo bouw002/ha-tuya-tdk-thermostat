@@ -1,0 +1,1 @@
+# ha-tuya-tdk-thermostat
